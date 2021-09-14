@@ -14,9 +14,11 @@ public class App
         int legalAge = 16;
         Scanner scanner = new Scanner(System.in);
 
+        //Input
         System.out.print("What is your age? ");
         int currentAge = scanner.nextInt();
 
+        //Output
         System.out.println("You are " + (currentAge < 16 ? "not old enough to drive." : "old enough to drive."));
 
     }
